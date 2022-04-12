@@ -38,6 +38,7 @@
 		FE5046FC2804582600531AED /* PersonDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5046FB2804582600531AED /* PersonDetailViewControllerTests.swift */; };
 		FE5046FE2804597E00531AED /* RoomTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5046FD2804597E00531AED /* RoomTableViewControllerTests.swift */; };
 		FE50470528045B0300531AED /* ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50470428045B0300531AED /* ExtensionsTests.swift */; };
+		FEA7B1072805BF6D0004EA2B /* NetworkResponseModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA7B1062805BF6D0004EA2B /* NetworkResponseModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		FE5046FB2804582600531AED /* PersonDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PersonDetailViewControllerTests.swift; path = StaffManagerTests/ViewController/Main/PersonDetailViewControllerTests.swift; sourceTree = SOURCE_ROOT; };
 		FE5046FD2804597E00531AED /* RoomTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RoomTableViewControllerTests.swift; path = StaffManagerTests/ViewController/Main/RoomTableViewControllerTests.swift; sourceTree = SOURCE_ROOT; };
 		FE50470428045B0300531AED /* ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsTests.swift; sourceTree = "<group>"; };
+		FEA7B1062805BF6D0004EA2B /* NetworkResponseModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponseModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		FE50468A280426F800531AED /* StaffManagerTests */ = {
 			isa = PBXGroup;
 			children = (
+				FEA7B1052805BF530004EA2B /* Network */,
 				FE50470328045AC800531AED /* Utilities */,
 				FE5046F72804495F00531AED /* ViewController */,
 				FE5046F6280448E400531AED /* ViewModel */,
@@ -347,6 +350,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		FEA7B1052805BF530004EA2B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FEA7B1062805BF6D0004EA2B /* NetworkResponseModelTests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -514,6 +525,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE50470528045B0300531AED /* ExtensionsTests.swift in Sources */,
+				FEA7B1072805BF6D0004EA2B /* NetworkResponseModelTests.swift in Sources */,
 				FE5046FE2804597E00531AED /* RoomTableViewControllerTests.swift in Sources */,
 				FE5046FA280449E500531AED /* PeopleTableViewControllerTests.swift in Sources */,
 				FE5046FC2804582600531AED /* PersonDetailViewControllerTests.swift in Sources */,
